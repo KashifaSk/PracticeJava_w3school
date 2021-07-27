@@ -1,5 +1,6 @@
 package com.se.PracticeArray;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class NamesArray {
@@ -9,7 +10,11 @@ public class NamesArray {
        for(int i=0; i<names.length; i++){
        System.out.println(names[i]);
        }
-
         System.out.println(Arrays.toString(names));
+        ArrayList<Integer> list= new ArrayList<>();
+       list.add(1);
+       list.add(2);
+        System.out.println(list);
+
     }
 }
